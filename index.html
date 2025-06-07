@@ -1,1 +1,236 @@
-!jkhk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"-->
+<!--          rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"-->
+<!--          crossorigin="anonymous">-->
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header" >
+    <div class="logo">
+        <h1>Naveen <span>Gunalan</span></h1>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<section class="coverpic" id="home">
+    <img src="assests/pic.png" alt="">
+
+    <div class="content">
+        <h1>Hi, I am <span>Naveen Gunalan</span></h1>
+        <h2>Web Developer</h2>
+
+        <div class="resume">
+            <div>
+                <a href="naveen webdeveloper.pdf" download=""><button>Download Resume</button></a>
+            </div>
+            <div class="view">
+                <a href="naveen webdeveloper.pdf" target="_blank"><button>view Resume</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1>About</h1>
+    <div class="about-content">
+        <p>I have 2.5 years of experience working with PHP and Laravel, specializing in backend development for web applications and mobile apps. My expertise includes building RESTful APIs to support mobile app backends, as well as developing dynamic and eCommerce websites using Laravel along with HTML, CSS, and JavaScript for frontend design.</p><br>
+        <p>I am skilled in deploying projects on cPanel and various hosting platforms and have hands-on experience with version control using Git. I am passionate about writing clean, maintainable code and delivering scalable, user-friendly web solutions.</p>
+    </div>
+</section>
+<section class="skills" id="skills">
+    <h1 class="hskills">Skills</h1>
+
+    <div class="skills-content">
+        <div class="webtech">
+            <h3>Technical Skills</h3>
+        </div>
+    </div>
+    <div class="skills-content1">
+        <div class="web">
+             <div class="html">
+                <img src="assests/php.png" alt="">
+                <h3>PHP</h3>
+            </div>
+            <div class="html">
+                <img src="assests/html.png" alt="">
+                <h3>HTML</h3>
+            </div>
+            <div class="html1">
+               <img src="assests/css.png" alt="">
+               <h3>CSS</h3>
+            </div>
+            <div class="html">
+                <img src="assests/js.png" alt="">
+                <h3>JavaScript</h3>
+            </div>
+        </div>
+    </div>
+    <div class="framework webtech">
+        <h3>Framework</h3>
+        <div class="frame">
+            <div class="html">
+                <img src="assests/laravel.png" alt="">
+                <h3>Laravel Framework</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="database">
+        <div class="h3">
+            <h3>Database</h3>
+        </div>
+        <div class="frame">
+
+            <div class="html">
+                <img src="assests/sql.png" alt="">
+                <h3>MySQL</h3>
+            </div>
+             <div class="html">
+                <img src="assests/mongo.png" alt="">
+                <h3>MongoDB</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tools">
+        <div class="h3">
+            <h3>Tools</h3>
+        </div>
+        <div class="frame">
+
+            <div class="html">
+                <img src="assests/vs.png" alt="">
+                <h3>VS Code</h3>
+            </div>
+
+            <div class="html">
+                <img src="assests/github.png" alt="">
+                <h3>GitHub</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="project" id="projects">
+    <div class="projects">
+        <h1>Projects</h1>
+    </div>
+    <div class="done-projects">
+        <div class="pro">
+            <div class="foodapp">
+                <a href="https://play.google.com/store/apps/details?id=com.gaya.gss&hl=en" target="_blank"><img src="assests/gay.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">Gayathri Bakshanam</h1>
+                <p class="desc"> An eCommerce system with Laravel-based admin panel for managing products, categories, and orders. The mobile app communicates with the backend via secure APIs to handle product browsing, cart management, and order placement. My role was developing the Laravel APIs supporting the app’s shopping and order workflows.</p>
+            </div>
+
+            <div class="foodapp">
+                <a href="https://play.google.com/store/apps/details?id=com.vidhyaarshschool.vidhyaarsh" target="_blank"><img src="assests/vid.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">VidhyaarshSchool App</h1>
+                <p class="desc"> A comprehensive school management app with Laravel backend and admin panel. It handles student admissions, attendance tracking, fee management, circulars, events, and daily homework assignments. Both students and staff access information via the app, while admins manage data and updates through the backend.</p>
+            </div>
+        </div>
+
+        <div class="pro">
+            <!-- <div class="foodapp">
+                <a href="https://pravinsamr1.github.io/Weather_App/" target="_blank"><img src="assests/weather.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">JVL Property</h1>
+                <p class="desc"> A property management platform supporting house buying and renting. The Laravel backend provides APIs for customers to browse and buy houses, and for owners to post properties for rent or sale. The system facilitates seamless interaction between buyers and property owners through a mobile app consuming these APIs.</p>
+            </div> -->
+             <div class="foodapp">
+                <a href="https://riverofdelight.com/" target="_blank"><img src="assests/die.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">Diocese of Thanjavur</h1>
+                <p class="desc"> A fully dynamic Laravel-based website for the Diocese of Thanjavur. All pages, including banners, blogs, events, and content sections, are managed through an admin panel. Admins can easily add, update, and view all site content from the backend.</p>
+            </div>
+
+            <div class="foodapp">
+                <a href="https://zolomart.in/" target="_blank"><img src="assests/zolo.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">Zolomart</h1>
+                <p class="desc"> A complete Laravel-based eCommerce website with product listing, shopping cart, secure checkout, and admin dashboard for managing orders and inventory.</p>
+            </div>
+        </div>
+
+        <div class="pro">
+            <div class="foodapp">
+                <a href="https://maidscorner.com/" target="_blank"><img src="assests/maids.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">Maidscorner</h1>
+                <p class="desc"> A job portal built with Laravel and HTML, connecting companies with domestic worker candidates. Companies can post jobs, and candidates can apply easily through their profile.</p>
+            </div>
+
+            <div class="foodapp">
+                <a href="https://kirthikcrafts.com/" target="_blank"><img src="assests/kirt.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">kirthikcrafts</h1>
+                <p class="desc"> A complete Laravel-based eCommerce website with product listing, shopping cart, secure checkout, and admin dashboard for managing orders and inventory.</p>
+            </div>
+        </div>
+
+        <div class="pro">
+            <div class="foodapp">
+                <a href="https://inarahealthcare.com/" target="_blank"><img src="assests/inh.png" alt="" width="450px"></a>
+                <h1 style="color: orangered;" class="pot">Inarahealthcare</h1>
+                <p class="desc"> A Laravel-based website featuring banner management and a dynamic blog system. The frontend is static for users, while the admin panel (built in Laravel) allows full control over content such as blogs and homepage banners.</p>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+
+<section class="contact" id="contact">
+    <div class="con">
+        <h1>Contact</h1>
+    </div>
+    <div class="con-detail">
+        <div class="mail">
+            <h1>E-mail</h1>
+            <p><a href="mailto: naveengunalangn@gmail.com">naveengunalangn@gmail.com</a></p>
+        </div>
+        <div class="phone">
+            <h1>Phone Number</h1>
+            <p><a href="tel:7449204859">+91 7449204859</a></p>
+        </div>
+    </div>
+        
+
+        <div class="links">
+            <div class="soc-icon">
+                <a href="www.linkedin.com/in/naveen-gunalan-a47333250" target="_blank"><img src="assests/linkedin.png" alt=""></a>
+            </div>
+            <div class="soc-icon">
+                <a href="https://wa.me/+917449204859" target="_blank"><img src="assests/whatsapp.png" alt=""></a>
+            </div>
+            <div class="soc-icon">
+                <a href="https://github.com/Naveen-Developer-php" target="_blank"><img src="assests/github.png" alt=""></a>
+            </div>
+        </div>
+</section>
+
+<section class="social">
+    
+</section>
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
